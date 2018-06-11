@@ -3,7 +3,16 @@ img {
 	transition: 0.3s ease;
 }
 
+/*number 8*/
 .toggleFade {
 	opacity: 0;
 }
 
+/*number 14*/
+#overlay {
+  position: fixed;
+  background-color: red;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;

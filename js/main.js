@@ -1,3 +1,6 @@
+$(document).ready(function() {
+
+// number 5
 $("#hide").click(function(){
     $("img").hide();
 });
@@ -5,6 +8,8 @@ $("#hide").click(function(){
 $("#show").click(function(){
     $("img").show();
 });
+
+// number 6
 $("#toggle").click(function(){
     $("img").toggle();
 });
@@ -15,10 +20,23 @@ $("#fade").click(function(){
 });
 
 // number 10
-$(document).ready(function(){
+
 $("img").hover(function() {
 $( 'img' ).attr("src","img/deedee.png");
 }, function() {
+	$("img").attr("src", "img/dexter.png")
 });
-}
-);
+
+
+// number 12
+
+$("#add").click(function() {
+	$("#list").append("<li>fck off!</li");
+});
+
+// number 14
+$("#last").click(function() {
+	$("body").append("<div id='overlay'></div>");
+})
+
+});
