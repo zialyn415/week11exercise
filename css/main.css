@@ -1,0 +1,9 @@
+img {
+	/*number 7*/
+	transition: 0.3s ease;
+}
+
+.toggleFade {
+	opacity: 0;
+}
+
